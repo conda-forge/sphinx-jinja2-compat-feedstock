@@ -1,5 +1,5 @@
 {% set name = "sphinx-jinja2-compat" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sphinx_jinja2_compat-{{ version }}.tar.gz
-  sha256: 61b9cd006ea05aa17db68c5f0d34823c6d08ffc8df60983a632c4c3f46df2f08
+  sha256: 0188f0802d42c3da72997533b55a00815659a78d3f81d4b4747b1fb15a5728e6
 
 build:
   noarch: python
